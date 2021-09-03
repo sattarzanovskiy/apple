@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+
+/* NAV */
+
+.parentnav{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinenav{
+    display: inline-flex;
+}
+
+
+.img li{
+    list-style: none;
+}
+
+.img li a{
+    text-decoration: none;
+}
+
+
+.img li a img{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+/* List */
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.list li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    position: relative;
+    left: 550px;
+    margin-left: 25px;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+
+.list li a:hover{
+    color: orange;
+    transition: 1s;
+}
+
+
+/* main */
+
+
+.parentreklama{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinereklama{
+    display: inline-flex;
+}
+
+
+.imgwatch li{
+    list-style: none;
+}
+
+.imgwatch li img{
+    width: 450px;
+    height: 450px;
+    margin-left: 150px;
+}
+
+
+.textwatch li{
+    list-style: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    word-spacing: 15px;
+    letter-spacing: 10px;
+}
+
+
+.textwatch p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+
+
+.textwatch button {
+    width: 250px;
+    height: 60px;
+    background-color: orange;
+    border: none;
+    border-radius: 55px;
+    box-shadow: 0 0 10px 5px orange;
+    margin-top: 15px;
+}
+
+
+.textwatch button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* features */
+
+
+.parentfeatures{
+    width: 100%;
+    margin: auto;
+}
+
+
+.inlinefeatures{
+    display: inline-flex;
+}
+
+
+.features li{
+    color: black;
+    list-style: none;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.texts li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 25px;
+    color: black;
+}
+
+.texts li i{
+    margin-top: 70px;
+}
+
+
+.texts p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+
+
+.clock li{
+    list-style: none;
+}
+
+
+.clock li img{
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+}
+
+
+
+/* Designed By */
+
+.parentdesignedby{
+    width: 100%;
+    margin: auto;
+    background-color: orange;
+    margin-top: 150px;
+}
+
+
+.inlinedesignedby {
+    display: inline-flex;
+}
+
+
+.watch li{
+    list-style: none;
+}
+
+.watch li img{
+    width: 500px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+
+.textwatch2 li{
+    list-style: none;
+}
+
+
+.textwatch2 li {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 250px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+
+.textwatch2 p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 3px;
+}
+
+
+/* chooseapplewatch */
+
+.parentchooseapplewatch{
+    width: 100%;
+    margin: auto;
+} 
+
+
+.inlinechooseapplewatch{
+    display: inline-flex;
+}
+
+
+.chooseapplewatch li{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    list-style: none;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+
+.applewatch li{
+    list-style: none;
+}
+
+.applewatch li img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.textapplewatch li{
+    color: black;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+
+.textapplewatch p{
+    font-size: 18px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.textapplewatch button{
+    background-color: orange;
+    border: 0;
+    border-radius: 55px;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 0 0 10px 5px orange;
+}
+
+
+.textapplewatch button a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+
+/* Checkout */
+
+.parentcheckout{
+    width: 100%;
+    margin: auto;
+}
+
+
+.textcheckout li{
+    list-style: none;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.inlinecheckout{
+    display: inline-flex;
+}
+
+.inlinecheckout li{
+    list-style: none;
+}
+
+.inlinecheckout li img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+/* Updates */
+
+.parentupdates{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    height: 450px;
+}
+
+
+.textupdates li{
+    color: white;
+    list-style: none;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 150px;
+}
+
+
+.textupdates p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.textupdates input{
+    width: 450px;
+    height: 50px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold; 
+    border-radius: 25px;
+    margin-left: 400px;
+    padding-left: 15px;
+}
+
+
+.textupdates button{
+    width: 200px;
+    height: 55px;
+    border-radius: 25px;
+    position: absolute;
+    right: 400px;
+    border: 0;
+    background-color: orange;    
+    margin-top: 1px;
+}
+
+
+.textupdates button a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* Buuton */
+
+
+.parentbutton{
+    width: 100%;
+    margin: auto;
+}
+
+
+.button button{
+    background-color: orange;
+    border: 0;
+    border-radius: 55px;
+    width: 250px;
+    height: 60px;
+    margin-top: 150px;
+    margin-left: 500px;
+    box-shadow: 0 0 10px 5px orange;
+}
+
+.button button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* Review */
+
+.parentreview{
+    width: 100%;
+    margin: auto;
+}
+
+
+.texts2{
+    display: inline-flex;
+}
+
+
+.zagolovok li{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.texts2 p{
+    text-align: center;
+    position: absolute;
+    left: 200px;
+    top: 740%;
+    color: grey;
+    font-size: 18px;
+}
+
+.texts2 li{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.texts2 picture img{
+    width: 250px;
+    height: 170px;
+    border-radius: 100%;
+    margin-top: 230px;
+    margin-left: 200px;
+}
+
+.texts2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+/* Footer */
+
+
+.parentfooter{
+    width: 100%;
+    margin: auto;
+}
+
+
+.logo li{
+    list-style: none;
+}
+
+
+.logo li img{
+    width: 70px;
+    height: 25px;
+    margin-left: 580px;
+    margin-top: 100px;
+}
+
+
+.parentnav2{
+    width: 100%;
+    margin: auto;
+}
+
+.inlinenav2{
+    display: inline-flex;
+}
+
+
+.list2 li{
+    list-style: none;
+    display: inline-flex;
+}
+
+
+.list2 li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    position: relative;
+    left: 470px;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+
+
+
+.upbtn {
+    opacity: 0.7;
+    z-index: 9999;
+    width: 38px;
+    height: 38px;
+    position: fixed;
+    bottom: -80px;
+    right: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid #d2e3f1;
+    transition: all .7s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #17527b;
+    background-size: 50% auto;
+    background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDQ0NC44MTkgNDQ0LjgxOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDQ0LjgxOSA0NDQuODE5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQzMy45NjgsMjc4LjY1N0wyNDguMzg3LDkyLjc5Yy03LjQxOS03LjA0NC0xNi4wOC0xMC41NjYtMjUuOTc3LTEwLjU2NmMtMTAuMDg4LDAtMTguNjUyLDMuNTIxLTI1LjY5NywxMC41NjYgICBMMTAuODQ4LDI3OC42NTdDMy42MTUsMjg1Ljg4NywwLDI5NC41NDksMCwzMDQuNjM3YzAsMTAuMjgsMy42MTksMTguODQzLDEwLjg0OCwyNS42OTNsMjEuNDExLDIxLjQxMyAgIGM2Ljg1NCw3LjIzLDE1LjQyLDEwLjg1MiwyNS42OTcsMTAuODUyYzEwLjI3OCwwLDE4Ljg0Mi0zLjYyMSwyNS42OTctMTAuODUyTDIyMi40MSwyMTMuMjcxTDM2MS4xNjgsMzUxLjc0ICAgYzYuODQ4LDcuMjI4LDE1LjQxMywxMC44NTIsMjUuNywxMC44NTJjMTAuMDgyLDAsMTguNzQ3LTMuNjI0LDI1Ljk3NS0xMC44NTJsMjEuNDA5LTIxLjQxMiAgIGM3LjA0My03LjA0MywxMC41NjctMTUuNjA4LDEwLjU2Ny0yNS42OTNDNDQ0LjgxOSwyOTQuNTQ1LDQ0MS4yMDUsMjg1Ljg4NCw0MzMuOTY4LDI3OC42NTd6IiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==)
+  }
+  .upbtn:hover {
+    opacity: 1;
+    background-color: #337AB7;
+  }
